@@ -4,6 +4,8 @@ import os
 
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 
+# create model directory
+os.mkdir("bigbird_model")
 
 memory = []
 mem_size = 100
